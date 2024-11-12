@@ -1,22 +1,22 @@
 var special_words = ['CPU', 'ULA', 'Registradores', 'RAM', 'ROM', 'EPROM', 'FLASH', 'Memória de Massa', 'DMA', 'CS', 'Adress Bus', 'Data Bus', 'I5', 'I7', 'Dual Core', 'Quad Core'];
 
 var questions_list = [
-    'Qual é a sigla para Central Process Unit?',
-    'Um circuto digital que realiza operações lógicas e aritméticas. Qual é o nome deste componente?',
-    'Tipo de memória que se encontra no topo da hierarquia de memória',
-    'Tipo de memória volátil que tem como nome Random Acess Memory. Qual é a sigla deste componente?',
-    'Tipo de memória não volátil que oferece dados apenas para leitura',
-    'Tipo de memória não volátil que precisa ter seu chip exposto a luz ultravioleta para apagar seu conteúdo',
-    'Tipo particular de EEPROM que mantém as informações armazenadas sem a necessidade de uma fonte de energia elétrica',
-    'Tipo de memória que precisa ter seu conteúdo copiado na RAM para poder ser executado pela CPU',
-    'Permite que periféricos acessem diretamente a RAM sem ocupar processamento',
-    'Também conhecido como Slave Select (SS). Usado para selecionar um ou um conjunto de circuitos que estão conectados no computador',
-    'Grupo de linhas ou trilhas usadas para se referir a um endereço físico na memória. O número de trilhas determina a quantidade de endereços na memória física',
-    'Também chamado de Memory Bus. É responsável para carregar os dados.',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em setembro de 2009',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em novembro de 2008',    
-    'Tipo de processador que possui dois processadores ou melhor dizendo ‘dois centros, núcleos ou cores de execução‘ no mesmo circuito integrado.  Cada core tem sua própria memória cash e controlador o que permite que funcione mais efetivamente do que um processador single',
-    'Segue o mesmo princípio de um dual-core, mas agora em teoria tem o dobro da capacidade de processamento'
+'Qual o componente eletronico conhecido por ser o “cérebro” do computador?',
+'Qual a parte do processador responsavel por fazer operações matemáticas?',
+'Qual o nome do tipo de memoria mais rapida dentro do computador?',
+'Qual o tipo de memoria que armazena dados temporarios?',
+'Qual a memoria usada para “guardar” a BIOS?',
+'Qual o tipo de memoria que é usada para armazenar o firmware do sistema?',
+'Qual o tipo de memoria que é usada para armazenar dados em dispositivos hibridos como pendrives e discos rigidos externos?', 
+'Qual o segundo tipo de memoria usada em HD’s e SSD’s?',
+'Qual processador lançando em 2009 pela Intel foi o primeiro a apresentar frequencia de 2.66Gz e Quad Core? Qual processador lançado em 2008 pela Intel é sucessor direto do Intel Core 2?',
+'Como é denominado um processador com 2 núcleos independentes? Como é denominado um processador com 4 núcleos independentes?',
+'Como se fala Barramento de endereço em inglês?', 
+'Qual o Hardware responsável pelo transporte de dados entre componentes dentro de um sistema?', 
+'Qual o nome do modelo de processador desenvolvido pela Intel que teve sua primeira versão lançada em meados de 2009?',
+'Qual o recurso que permite que dispositivos de I/O transfiram dados para a memória principal sem envolver diretamente o processador, liberando a CPU para outras tarefas e melhorando a eficiência do sistema?',
+'Qual o tipo de processador que possui dois núcleos independentes?',
+'Qual o tipo de processador que possui 4 núcleos independentes?',
 ];
 
 var filledCell = [2, 20, 38, 133, 134, 135, 59, 77, 95, 113, 131, 149,
