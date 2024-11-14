@@ -274,13 +274,14 @@ td {
     background-color: #58D68D;
     color: #196F3D;
     border: 1px #196F3D solid;
+    font-weight: 700;
 }
 
 .wrongAnswer {
     background-color: #EC7063;
     color: #7B241C;
     border: 1px #7B241C solid;
-
+    font-weight: 700;
 }
 
 .icon {
