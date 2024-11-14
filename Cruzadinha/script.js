@@ -311,10 +311,12 @@ function continuarJogo(indiceResposta) {
 
         wordAtual.write();
 
-        if (spanAtual && spanAtual.style.color === 'green') {
+        if (spanAtual && spanAtual.style.color === '#00c500') {
             span_situacao.innerHTML = 'Você já respondeu essa...';
         } else if (spanAtual) {
-            spanAtual.style.color = 'green'; 
+            spanAtual.style.color = '#00c500';
+            spanAtual.style.fontWeight = '900';
+            spanAtual.style.textShadow = '-1px 1px 1px #013f00' 
             pontuacao++;
         }
 
