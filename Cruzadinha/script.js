@@ -1,4 +1,4 @@
-var special_words = ['CPU', 'ULA', 'REGISTRADORES', 'RAM', 'ROM', 'EPROM', 'FLASH', 'MEMÓRIA DE MASSA', 'DMA', 'CS', 'ADDRESS BUS', 'DATA BUS', 'I5', 'I7', 'DUAL CORE', 'QUAD CORE'];
+var special_words = ['CPU', 'ULA', 'REGISTRADORES', 'RAM', 'ROM', 'EPROM', 'FLASH', 'MEMÓRIA DE MASSA', 'DMA', 'CS', 'ADDRESS BUS', 'DATA BUS', 'I5', 'I7', 'DUAL CORE', 'QUAD CORE'];var special_words = ['CPU', 'ULA', 'REGISTRADORES', 'RAM', 'ROM', 'EPROM', 'FLASH', 'MEMÓRIA DE MASSA', 'DMA', 'CS', 'ADDRESS BUS', 'DATA BUS', 'I5', 'I7', 'DUAL CORE', 'QUAD CORE'];
 
 var questions_list = [
 'Qual o componente eletronico conhecido por ser o “cérebro” do computador?',
@@ -19,7 +19,6 @@ var questions_list = [
 'Qual o tipo de processador que possui 4 núcleos independentes?',
 ];
 
-
 var filledCell = [3, 21, 39, 134, 135, 136, 60, 78, 96, 114, 132, 150,
     168, 186, 204, 222, 240, 258, 276, 60, 61, 62, 273, 291, 309, 237,
     255, 273, 291, 309, 117, 135, 153, 171, 189, 28, 46, 64, 82, 100, 118,
@@ -27,7 +26,6 @@ var filledCell = [3, 21, 39, 134, 135, 136, 60, 78, 96, 114, 132, 150,
     314, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 188, 21, 224,
     242, 260, 278, 296, 314, 118, 119, 114, 115, 38, 39, 40, 41, 42, 43,
     44, 45, 46, 4, 22, 40, 58, 76, 94, 112, 130, 148];
-
 
 var firstIndex = [3, 134, 60, 61, 273, 237, 117, 28, 204, 313, 270, 188, 118, 114, 38, 4];
 
@@ -293,7 +291,6 @@ function verificarResposta() {
 }
 
 
-
 function continuarJogo(indiceResposta) {
     var words = [word.word1, word.word2, word.word3, word.word4, word.word5, word.word6,
         word.word7, word.word8, word.word9, word.word10, word.word11, word.word12,
@@ -371,8 +368,6 @@ function renderizarTabela() {
     pintarCelulas();
 }
 
-
-
 function pintarCelulas() {
 
     for (item in filledCell) {
@@ -416,7 +411,6 @@ function reiniciar() {
         const text = title.textContent;
         title.innerHTML = ''; 
     
-        // Configuração da animação de título
         text.split('').forEach((letter, index) => {
             const span = document.createElement('span');
             span.textContent = letter;
@@ -425,16 +419,15 @@ function reiniciar() {
             title.appendChild(span);
         });
     
-        // Adiciona evento para tecla Enter no campo de entrada
+    
         const inputResposta = document.getElementById('input_resposta');
         const btnVerificar = document.getElementById('btn_verificar');
         
         inputResposta.addEventListener('keypress', (event) => {
             if (event.key === 'Enter') {
-                btnVerificar.click(); // Simula o clique no botão Verificar
-                event.preventDefault(); // Evita o comportamento padrão do Enter
+                btnVerificar.click(); 
+                event.preventDefault(); 
             }
         });
     });
     
-

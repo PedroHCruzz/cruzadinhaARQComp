@@ -1,11 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #E8F4FA;
+    background-color: #ffffff;
     font-family: monospace;
 }
 
@@ -21,7 +20,7 @@ body {
 
 @keyframes colorize {
     0% { color: #ff0000; }
-    50% { color: #f6f6f6; } /* mid color */
+    50% { color: #f6f6f6; } 
     100% { color: #000000; }
 }
 
@@ -29,7 +28,6 @@ body {
     display: inline-block;
     animation: colorize 1.5s ease-in-out infinite;
 }
-
 
 .container.header {
     margin-top: 0;
@@ -63,7 +61,7 @@ tr {
 }
 
 td {
-    border: 1px #D0E1F2 solid;
+    border: 1px #ffffff solid;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -72,7 +70,7 @@ td {
 
 .button {
     border: none;
-    background-color: #FF914D;
+    background-color: green;
     color: white;
     padding: 10px;
     font-size: 20px;
@@ -110,14 +108,14 @@ td {
 
 .div-questoes, .cruzadinha{
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .cruzadinha {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #000000;
+    background-color: #ffffff;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -163,11 +161,11 @@ td {
 }
 
 .deadCell {
-    background-color: #000406;
+    background-color: #ffffff;
 }
 
 .availableCell {
-    background-color: #ffffff;
+    background-color: #9ad4d5;
 }
 
 .modal {
